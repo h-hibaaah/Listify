@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="small_text">
-        12dp
+        14dp
     </dimen>
     <dimen name="large_text"
         >
