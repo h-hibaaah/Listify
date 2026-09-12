@@ -10,4 +10,7 @@
     <dimen name="medium_text">
         20dp
     </dimen>
+    <dimen name="big_card">
+        250dp
+    </dimen>
 </resources>
