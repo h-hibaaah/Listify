@@ -2,9 +2,11 @@ package com.hibba.listify
 
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class profileadapter (val items : List<Profileitem>): RecyclerView.Adapter<profileadapter.viewholder>
+class profileadapter (val items : List<Profileitem>):
+    RecyclerView.Adapter<profileadapter.viewholder>()
 {
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -26,6 +28,6 @@ class profileadapter (val items : List<Profileitem>): RecyclerView.Adapter<profi
 
     class viewholder(itemview: View): RecyclerView.ViewHolder(itemview)
     {
-        val item1 = itemview.findViewById<>()
+        val item1 = itemview.findViewById<TextView>(R.id.textview)
     }
 }
