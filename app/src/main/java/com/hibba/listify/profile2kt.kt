@@ -12,7 +12,8 @@ class profileadapter (val items : List<Profileitem>):
         parent: ViewGroup,
         viewType: Int
     ): viewholder {
-        TODO("Not yet implemented")
+val view = android.view.LayoutInflater.from(parent.context).inflate( R.layout.profileitem,parent,false )
+        return viewholder(view)
     }
 
     override fun onBindViewHolder(
@@ -23,7 +24,7 @@ class profileadapter (val items : List<Profileitem>):
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return items.size
     }
 
     class viewholder(itemview: View): RecyclerView.ViewHolder(itemview)
