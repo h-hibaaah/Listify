@@ -1,4 +1,6 @@
 package com.hibba.listify
+import android.R.string
 
-class profile1kt {
-}
+class Profileitem (
+    val item : String
+)
