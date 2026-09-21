@@ -40,12 +40,12 @@ class MainActivity3 : AppCompatActivity() {
 //                    true
 //                }
 //
-//                R.id.profile -> {
-//                    supportFragmentManager.beginTransaction()
-//                        .replace(R.id.fragment, Profile())
-//                        .commit()
-//                    true
-//                }
+                R.id.profile -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment, Profile())
+                        .commit()
+                    true
+                }
 
                 else -> false
             }

@@ -6,6 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="@dimen/medium_text"
+android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:id="@+id/textview"
         />
 </LinearLayout>

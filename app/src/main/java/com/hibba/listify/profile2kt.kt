@@ -20,7 +20,8 @@ val view = android.view.LayoutInflater.from(parent.context).inflate( R.layout.pr
         holder: viewholder,
         position: Int
     ) {
-        TODO("Not yet implemented")
+        holder.item1.text = items[position].item
+
     }
 
     override fun getItemCount(): Int {
