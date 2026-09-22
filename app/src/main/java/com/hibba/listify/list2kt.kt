@@ -11,12 +11,13 @@ class listrecyclerview(val items : List<list1kt>) : RecyclerView.Adapter<listrec
         parent: ViewGroup,
         viewType: Int
     ): listrecyclerview.viewholderlist {
-        TODO("Not yet implemented")
+        val view = android.view.LayoutInflater.from(parent.context).inflate(R.layout.fragment_lists,parent,false)
+        return viewholderlist(view)
     }
 
     override fun onBindViewHolder(holder: listrecyclerview.viewholderlist, position: Int) {
-        TODO("Not yet implemented")
-    }
+        holder.text1.text = items[position].text1
+        holder.text2.text = items[position].text2    }
 
     override fun getItemCount(): Int {
         return items.size
