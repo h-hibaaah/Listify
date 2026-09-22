@@ -32,14 +32,14 @@ class MainActivity3 : AppCompatActivity() {
                     true
 
                 }
-//
-//                R.id.lists -> {
-//                    supportFragmentManager.beginTransaction()
-//                        .replace(R.id.fragment, Lists())
-//                        .commit()
-//                    true
-//                }
-//
+
+                R.id.lists -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment, Lists())
+                        .commit()
+                    true
+                }
+
 //                R.id.profile -> {
 //                    supportFragmentManager.beginTransaction()
 //                        .replace(R.id.fragment, Profile())

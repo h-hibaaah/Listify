@@ -11,7 +11,10 @@ class listrecyclerview(val items : List<list1kt>) : RecyclerView.Adapter<listrec
         parent: ViewGroup,
         viewType: Int
     ): listrecyclerview.viewholderlist {
-        val view = android.view.LayoutInflater.from(parent.context).inflate(R.layout.fragment_lists,parent,false)
+
+        val view = android.view.LayoutInflater.from(parent.context)
+            .inflate(R.layout.lists_itemdesign_rv, parent, false)
+
         return viewholderlist(view)
     }
 
