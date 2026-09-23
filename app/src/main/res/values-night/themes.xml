@@ -5,4 +5,6 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
     <color name="edittextstroke">#B4A347</color>
+    <color name="icontint">#B4A347</color>
+    <color name="cardcolor">#b4a347</color>
 </resources>
