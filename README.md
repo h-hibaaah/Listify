@@ -110,13 +110,13 @@
 
 **Light Mode**
 
-<img src="ScreenShots/lighttheme.png" width="850" alt="Listify Light Mode Screens"/>
+<img src="ScreenShots/lighttheme.jpeg" width="420" alt="Listify Light Mode Screens"/>
 
 <br/><br/>
 
 **Dark Mode**
 
-<img src="./assets/ScreenShots/darktheme.png" width="420" alt="Listify Dark Mode Screens"/>
+<img src="ScreenShots/darktheme.jpeg" width="420" alt="Listify Dark Mode Screens"/>
 
 </div>
 <br/>
