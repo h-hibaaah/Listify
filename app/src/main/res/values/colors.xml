@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFF7FD</color>
+    <color name="white">#FFFFFF</color>
     <color name="edittextstroke">#FF000000</color>
     <color name="icontint">#FF000000</color>
     <color name="cardcolor">#ffff</color>
+    <color name="textcolor">@color/black</color>
 </resources>

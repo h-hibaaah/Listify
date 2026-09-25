@@ -13,6 +13,7 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:textColor="@color/textcolor"
             android:id="@+id/textView3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

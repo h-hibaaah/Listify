@@ -6,5 +6,11 @@
     </style>
     <color name="edittextstroke">#B4A347</color>
     <color name="icontint">#B4A347</color>
-    <color name="cardcolor">#b4a347</color>
+    <color name="cardcolor">#373333</color>
+    <color name="textcolor">#ffff</color>
+    <style name="CircularImage">
+        <item name="cornerSize">
+            50%
+        </item>
+    </style>
 </resources>

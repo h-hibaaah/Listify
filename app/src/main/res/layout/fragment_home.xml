@@ -13,6 +13,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
     <TextView
+        android:textColor="@color/textcolor"
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,6 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:textColor="@color/textcolor"
         android:id="@+id/subtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -44,11 +46,13 @@
         android:id="@+id/materialCardView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/big_card"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/cardcolor"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
+        app:strokeWidth="2dp"
         android:layout_marginEnd="24dp"
         app:cardCornerRadius="20dp"
+        app:strokeColor="@color/edittextstroke"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,6 +64,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -69,6 +74,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -89,6 +95,7 @@
                 app:trackColor="@color/white" />
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -101,6 +108,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <TextView
+        android:textColor="@color/textcolor"
         android:id="@+id/text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -117,9 +125,10 @@
         android:id="@+id/card1"
         android:layout_width="0dp"
         android:layout_height="150dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/cardcolor"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
+        app:strokeColor="@color/edittextstroke"
         android:layout_marginEnd="8dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
@@ -134,6 +143,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Study"
@@ -150,10 +160,11 @@
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/cardcolor"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         app:cardCornerRadius="20dp"
+        app:strokeColor="@color/edittextstroke"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/card1"
@@ -166,6 +177,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Shopping"
@@ -180,11 +192,12 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card3"
         android:layout_width="0dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/cardcolor"
         android:layout_height="150dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        app:strokeColor="@color/edittextstroke"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toStartOf="@id/card4"
@@ -198,6 +211,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Reading"
@@ -212,9 +226,10 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card4"
         android:layout_width="0dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="@color/cardcolor"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
+        app:strokeColor="@color/edittextstroke"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         app:cardCornerRadius="20dp"
@@ -230,6 +245,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/textcolor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Watchlist"
